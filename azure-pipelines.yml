@@ -1,7 +1,11 @@
 jobs:
  - job: Linux
-   pool: 'Hosted VS2017'
+   
+   pool:
+    vmImage: 'Ubuntu 16.04'
+    
    timeoutInMinutes: 120
+   
    strategy:
      matrix:
        node_8_simple:
