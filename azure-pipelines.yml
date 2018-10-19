@@ -15,7 +15,8 @@ jobs:
         displayName: 'Install Node.js'
         
     - bash: |
-        echo hello
+        export PATH="$HOME/.yarn/bin:$PATH"
+        echo $TEST_SUITE
         displayName: 'Install yarn'
 
     - bash: |
