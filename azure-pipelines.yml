@@ -16,6 +16,8 @@ jobs:
        node_10_installs:
           test_suite: installs
           node_version: 10.x
+          
+          
 #       node_8_kitchensink:
 #          test_suite: kitchensink
 #          node_version: 8.x
@@ -40,7 +42,8 @@ jobs:
 #       node_10_kitchensink_eject:
 #          test_suite: kitchensink-eject
 #          node_version: 10.x
-          
+
+
    steps:
     - task: NodeTool@0
       inputs:
