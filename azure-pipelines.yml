@@ -15,7 +15,7 @@ jobs:
         displayName: 'Install Node.js'
         
     - bash: |
-         curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --nightly
+        echo hello
         displayName: 'Install yarn'
 
     - bash: |
