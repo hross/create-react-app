@@ -21,7 +21,19 @@ jobs:
        node_10_kitchensink:
           test_suite: kitchensink
           node_version: 10.x
-       
+       node_8_behavior:
+          test_suite: behavior
+          node_version: 8.x
+       node_10_behavior:
+          test_suite: behavior
+          node_version: 10.x
+       node_8_old_node:
+          test_suite: old-node
+          node_version: 8.x
+       node_10_old_node:
+          test_suite: old-node
+          node_version: 10.x
+
           
    steps:
     - task: NodeTool@0
