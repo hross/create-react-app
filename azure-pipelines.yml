@@ -1,7 +1,7 @@
 jobs:
  - job: Linux
    pool: 'Hosted VS2017'
-     - timeoutInMinutes: 120
+   timeoutInMinutes: 120
    strategy:
      matrix:
        node_8_simple:
