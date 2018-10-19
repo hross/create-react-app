@@ -12,13 +12,13 @@ jobs:
     - task: NodeTool@0
       inputs:
         versionSpec: $(node_version)
-        displayName: 'Install Node.js'
+    displayName: 'Install Node.js'
         
     - bash: |
         export PATH="$HOME/.yarn/bin:$PATH"
         echo $TEST_SUITE
-        displayName: 'Install yarn'
+    displayName: 'Install yarn'
 
     - bash: |
         echo testing
-        displayName: 'install and build'
+    displayName: 'install and build'
