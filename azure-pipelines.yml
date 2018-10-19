@@ -20,5 +20,5 @@ jobs:
         displayName: 'Install yarn'
 
     - bash: |
-        echo bash
+        echo testing
         displayName: 'install and build'
