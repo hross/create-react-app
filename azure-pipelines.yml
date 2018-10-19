@@ -13,7 +13,7 @@ jobs:
       inputs:
         versionSpec: $(node_version)
       displayName: 'Install Node.js'
-        
+
     - bash: |
         export PATH="$HOME/.yarn/bin:$PATH"
         echo $TEST_SUITE
